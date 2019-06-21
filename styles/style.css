@@ -18,7 +18,6 @@ body {
 #slide__container {
   position: relative;
   display: flex;
-  /* overflow-x: s; */
   overflow-y: visible;
 }
 .slide__item {
@@ -30,7 +29,7 @@ body {
   align-items: center;
   text-align: center;
   color: #ffffff;
-  transition: transform 0.2s;
+  transition: transform 0.3s;
   opacity: 0.4;
 }
 .slide__item--focus {

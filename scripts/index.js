@@ -84,11 +84,9 @@ const renderSlides = games => {
       slideContainer.append(newSlide.html);
     });
     const firstSlide = document.getElementsByClassName("slide__item")[0];
-    // console.log(firstSlide);
     firstSlide.classList.toggle("slide__item--focus");
 
-    slideContainer.style.left = window.innerWidth/2 - 150 + "px";
-
+    slideContainer.style.left = window.innerWidth / 2 - 150 + "px";
   }
 };
 
