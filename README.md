@@ -1,6 +1,8 @@
 # MLB Game Browser
 
-### Step 1 Initialize project
+Simple web application (HTML, CSS, Vanilla JS) for viewing recent games as reported on MLB's API. Carousel-style UI.
+
+### Step 1 Initialized project
 
 - Created index.html.
 - Created /scripts, /styles.
